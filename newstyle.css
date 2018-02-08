@@ -1,0 +1,120 @@
+/* Show it is fixed to the top */
+body{
+  background-color: #eeeeee;
+  padding-top:3rem;
+}
+.jumbotron{
+  padding: 8rem 0;
+  background-color: #f1c40f;
+  color:#333;
+}
+
+@media screen and (max-width: 767px) {
+  .jumbotron{
+    padding: 3rem 0;
+  } 
+}
+
+section .heading:after{
+  content: '';
+  position: absolute;
+  width: 90px;
+  height: 3px;
+  background: #00aaff;
+}
+
+footer{
+  margin-top:5rem;
+  background-color: #0169a4;
+  color:#FFF;
+}
+footer a{
+  color:#FFF;
+}
+
+.footer-copyright{
+  background-color: #004977;
+  padding:0.7rem 0;
+}
+
+.image-box {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+}
+/* Bottom left text */
+.image-box .bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 16px;
+}
+/* Top left text */
+.image-box .top-left {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+}
+/* Top right text */
+.image-box .top-right {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+/* Bottom right text */
+.image-box .bottom-right {
+  position: absolute;
+  bottom: 15px;
+  right: 16px;
+}
+/* Centered text */
+.image-box .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.image-box h2 {
+  font-size:20px;
+  margin:0px;
+  color:#FFF;
+}
+.image-box .big-days {
+  font-size:15px;
+  margin:0px;
+  color:#FFF;
+}
+
+.image-box h3 {
+  font-size:14px;
+  margin:0px;
+  color:#FFF;
+}
+.image-box .small-days {
+  font-size:13px;
+  margin:0px;
+  color:#FFF;
+}
+
+.tour-item-big{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  padding: 40px 26px 20px;
+  transition: linear 0.2s;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.85) 100%);
+}
+
+.tour-item-small{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  padding: 40px 16px 10px;
+  transition: linear 0.2s;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.85) 100%);
+}
